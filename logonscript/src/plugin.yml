@@ -1,0 +1,5 @@
+name: Tekens Login Scripts
+version: 1.0
+description: runs a set of commands on a player when they login
+author: Teken
+main: Teken.loginscript.main
